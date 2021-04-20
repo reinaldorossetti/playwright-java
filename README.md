@@ -25,5 +25,6 @@ allure serve target/allure-results
 
 
 References:  
+https://github.com/microsoft/playwright-java  
 https://playwright.dev  
 https://applitools.com/blog/playwright-java/  
