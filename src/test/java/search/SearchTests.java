@@ -1,16 +1,15 @@
 package search;
 
 import base.BaseTests;
+import io.qameta.allure.Step;
 import org.testng.annotations.Test;
-import pages.SearchPage;
-
 import java.util.List;
-
 import static org.testng.Assert.*;
 
 public class SearchTests extends BaseTests {
 
     @Test
+    @Step("Search for exact title")
     public void searchForExactTitle(){
         String title = "Agile Testing";
         searchPage.search(title);
@@ -19,6 +18,7 @@ public class SearchTests extends BaseTests {
      }
 
      @Test
+     @Step("Search for partial title")
     public void searchForPartialTitle(){
         searchPage.search("Test");
 
