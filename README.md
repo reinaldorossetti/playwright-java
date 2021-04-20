@@ -13,13 +13,16 @@ Microsoft has a new open source web automation tool, Playwright. It recently rel
 ```  
 https://www.oracle.com/br/java/technologies/javase/jdk11-archive-downloads.html  
 
->> download allure command line  
+>> download allure command line:  
 npm install -g allure-commandline --save-dev  
 
->> download dependencies  
+>> download dependencies:  
 mvn package  
 
->> run tests  
+>> run tests:  
 mvn clean test  
 allure serve target/allure-results  
 
+
+References:
+https://applitools.com/blog/playwright-java/
