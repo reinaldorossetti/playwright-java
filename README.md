@@ -24,5 +24,6 @@ mvn clean test
 allure serve target/allure-results  
 
 
-References:
-https://applitools.com/blog/playwright-java/
+References:  
+https://playwright.dev  
+https://applitools.com/blog/playwright-java/  
