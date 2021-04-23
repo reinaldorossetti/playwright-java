@@ -23,6 +23,9 @@ mvn package
 mvn clean test  
 allure serve target/allure-results  
 
+>> playwright inspect mode:  
+npx playwright codegen https://automationbookstore.dev
+
 
 References:  
 https://github.com/microsoft/playwright-java  
