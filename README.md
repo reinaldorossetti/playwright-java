@@ -4,7 +4,7 @@ Microsoft has a new open source web automation tool, Playwright. It recently rel
 
 
 ###Requirements:  
->> Install Java JDK 11  
+>> Install Java JDK >= 11  
 ```  
   <configuration>  
       <source>11</source>  
@@ -14,7 +14,7 @@ Microsoft has a new open source web automation tool, Playwright. It recently rel
 https://www.oracle.com/br/java/technologies/javase/jdk11-archive-downloads.html  
 
 >> download allure command line:  
-npm install -g allure-commandline --save-dev  
+npm install -g allure-commandline
 
 >> download dependencies:  
 mvn package  
