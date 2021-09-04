@@ -55,7 +55,7 @@ jobs:
         BROWSER_CHANNEL: ${{ matrix.browser-channel }}
     - name: 📊 Step 5 - Collect Allure files and generate allure-report folder
       run: |
-        allure generate allure-results -o allure-report
+        allure generate ./target/allure-results -o allure-report
     - name: 🎁 Step 6 - Publishing Allure artifact to GitHub Actions
       uses: actions/upload-artifact@v2
       with:
