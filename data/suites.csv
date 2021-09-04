@@ -1,3 +1,3 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Sat Sep 04 19:19:19 UTC 2021","Sat Sep 04 19:19:20 UTC 2021","591","Surefire suite","Surefire test","search.SearchTests","search.SearchTests","searchForExactTitle","searchForExactTitle",""
-"passed","Sat Sep 04 19:19:20 UTC 2021","Sat Sep 04 19:19:21 UTC 2021","691","Surefire suite","Surefire test","search.SearchTests","search.SearchTests","searchForPartialTitle","searchForPartialTitle",""
+"passed","Sat Sep 04 19:19:30 UTC 2021","Sat Sep 04 19:19:30 UTC 2021","710","Surefire suite","Surefire test","search.SearchTests","search.SearchTests","searchForPartialTitle","searchForPartialTitle",""
+"passed","Sat Sep 04 19:19:29 UTC 2021","Sat Sep 04 19:19:30 UTC 2021","487","Surefire suite","Surefire test","search.SearchTests","search.SearchTests","searchForExactTitle","searchForExactTitle",""

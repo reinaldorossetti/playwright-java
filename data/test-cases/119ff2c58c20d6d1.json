@@ -1,12 +1,12 @@
 {
-  "uid" : "5d28c329c127277c",
+  "uid" : "119ff2c58c20d6d1",
   "name" : "searchForPartialTitle",
   "fullName" : "search.SearchTests.searchForPartialTitle",
   "historyId" : "4141efec1ea0ac2fc04c297c8265d820",
   "time" : {
-    "start" : 1630783160501,
-    "stop" : 1630783161192,
-    "duration" : 691
+    "start" : 1630783170183,
+    "stop" : 1630783170893,
+    "duration" : 710
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "setUp",
     "time" : {
-      "start" : 1630783134459,
-      "stop" : 1630783159543,
-      "duration" : 25084
+      "start" : 1630783140716,
+      "stop" : 1630783169290,
+      "duration" : 28574
     },
     "description" : "",
     "status" : "passed",
@@ -33,9 +33,9 @@
     "steps" : [ {
       "name" : "Search for partial title",
       "time" : {
-        "start" : 1630783160501,
-        "stop" : 1630783161191,
-        "duration" : 690
+        "start" : 1630783170183,
+        "stop" : 1630783170893,
+        "duration" : 710
       },
       "status" : "passed",
       "steps" : [ ],
@@ -56,9 +56,9 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1630783161194,
-      "stop" : 1630783161312,
-      "duration" : 118
+      "start" : 1630783170896,
+      "stop" : 1630783171552,
+      "duration" : 656
     },
     "description" : "",
     "status" : "passed",
@@ -90,10 +90,10 @@
     "value" : "search.SearchTests"
   }, {
     "name" : "host",
-    "value" : "Mac-1630779596865.local"
+    "value" : "Mac-1630773490565.local"
   }, {
     "name" : "thread",
-    "value" : "2250@Mac-1630779596865.local.main(1)"
+    "value" : "1746@Mac-1630773490565.local.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -114,6 +114,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "5d28c329c127277c.json",
+  "source" : "119ff2c58c20d6d1.json",
   "parameterValues" : [ ]
 }
