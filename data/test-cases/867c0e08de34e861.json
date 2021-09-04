@@ -1,12 +1,12 @@
 {
-  "uid" : "9b468240bfe9a738",
-  "name" : "searchForExactTitle",
-  "fullName" : "search.SearchTests.searchForExactTitle",
-  "historyId" : "65ab42225f70fb1c40828efd85dc18c7",
+  "uid" : "867c0e08de34e861",
+  "name" : "searchForPartialTitle",
+  "fullName" : "search.SearchTests.searchForPartialTitle",
+  "historyId" : "4141efec1ea0ac2fc04c297c8265d820",
   "time" : {
-    "start" : 1630783248877,
-    "stop" : 1630783249401,
-    "duration" : 524
+    "start" : 1630798678224,
+    "stop" : 1630798678820,
+    "duration" : 596
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "setUp",
     "time" : {
-      "start" : 1630783223794,
-      "stop" : 1630783248739,
-      "duration" : 24945
+      "start" : 1630798652825,
+      "stop" : 1630798677378,
+      "duration" : 24553
     },
     "description" : "",
     "status" : "passed",
@@ -24,41 +24,41 @@
     "attachments" : [ ],
     "parameters" : [ ],
     "stepsCount" : 0,
-    "hasContent" : false,
+    "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "hasContent" : false
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Search for exact title",
+      "name" : "Search for partial title",
       "time" : {
-        "start" : 1630783248922,
-        "stop" : 1630783249372,
-        "duration" : 450
+        "start" : 1630798678224,
+        "stop" : 1630798678820,
+        "duration" : 596
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
       "stepsCount" : 0,
-      "hasContent" : false,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "stepsCount" : 1,
-    "hasContent" : true,
+    "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "hasContent" : true
   },
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1630783250251,
-      "stop" : 1630783250708,
-      "duration" : 457
+      "start" : 1630798678824,
+      "stop" : 1630798678959,
+      "duration" : 135
     },
     "description" : "",
     "status" : "passed",
@@ -66,9 +66,9 @@
     "attachments" : [ ],
     "parameters" : [ ],
     "stepsCount" : 0,
-    "hasContent" : false,
+    "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "hasContent" : false
   } ],
   "labels" : [ {
     "name" : "package",
@@ -78,7 +78,7 @@
     "value" : "search.SearchTests"
   }, {
     "name" : "testMethod",
-    "value" : "searchForExactTitle"
+    "value" : "searchForPartialTitle"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -90,10 +90,10 @@
     "value" : "search.SearchTests"
   }, {
     "name" : "host",
-    "value" : "fv-az71-264"
+    "value" : "Mac-1630798511153.local"
   }, {
     "name" : "thread",
-    "value" : "6256@fv-az71-264.main(1)"
+    "value" : "1964@Mac-1630798511153.local.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -114,6 +114,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "9b468240bfe9a738.json",
+  "source" : "867c0e08de34e861.json",
   "parameterValues" : [ ]
 }
