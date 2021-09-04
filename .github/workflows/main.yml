@@ -25,7 +25,8 @@ jobs:
       with:
         node-version: '14'
     - name: Install operating system dependencies
-      run: npx playwright install-deps
+      run: npx playwright install-deps |
+       npm install allure-commandline --save-dev
     - uses: actions/checkout@v2
     - uses: microsoft/playwright-github-action@v1.5.0
     - name: Install Media Pack
@@ -52,20 +53,12 @@ jobs:
       env:
         BROWSER: chromium
         BROWSER_CHANNEL: ${{ matrix.browser-channel }}
-    - name: Test marketplace action
-      uses: simple-elf/allure-report-action@master
-      if: always()
-      id: allure-report
+    - name: 📊 Step 5 - Collect Allure files and generate allure-report folder
+      run: |
+        allure generate allure-results -o allure-report
+    - name: 🎁 Step 6 - Publishing Allure artifact to GitHub Actions
+      uses: actions/upload-artifact@v2
       with:
-        allure_results: build/allure-results
-        gh_pages: gh-pages
-        allure_report: allure-report
-        allure_history: allure-history
-    - name: Deploy report to Github Pages
-      if: always()
-      uses: peaceiris/actions-gh-pages@v2
-      env:
-        PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        PUBLISH_BRANCH: gh-pages
-        PUBLISH_DIR: allure-history
+        name: allure-report
+        path: allure-report
 
