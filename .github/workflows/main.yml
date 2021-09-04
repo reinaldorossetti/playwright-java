@@ -16,7 +16,7 @@ jobs:
       fail-fast: false
       matrix:
         os: [ubuntu-18.04, ubuntu-20.04, macos-10.15, windows-2019]
-        playwright: [1.12.0, next]
+        playwright: [1.12.0]
         headless: [true, false]
     runs-on: ${{ matrix.os }}
     steps:
@@ -24,11 +24,10 @@ jobs:
     - uses: actions/setup-node@v1
     - uses: ./
     - name: Install dependencies
-      run: cd sample && npm install playwright@${{ matrix.playwright }}
+      run: npm install playwright@${{ matrix.playwright }}
       # Headless running is the same across OSes
     - name: Run Playwright (headless)
       if: ${{ matrix.headless == true }}
-      run: cd sample && node index.js
 
       # Headful is different in every OS
     - name: Run Playwright (headful linux)
