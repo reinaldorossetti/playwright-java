@@ -26,7 +26,7 @@ jobs:
         node-version: '14'
     - name: Install operating system dependencies
       run: npx playwright install-deps |
-       npm install allure-commandline --save-dev
+       npm install -g allure-commandline --save-dev
     - uses: actions/checkout@v2
     - uses: microsoft/playwright-github-action@v1.5.0
     - name: Install Media Pack
