@@ -1,0 +1,43 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Surefire suite",
+    "children" : [ {
+      "name" : "Surefire test",
+      "children" : [ {
+        "name" : "search.SearchTests",
+        "children" : [ {
+          "name" : "searchForExactTitle",
+          "uid" : "15c3ed777962d549",
+          "parentUid" : "481cc747f0f6b8803284ad54a6fa01c1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1630783159793,
+            "stop" : 1630783160384,
+            "duration" : 591
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "searchForPartialTitle",
+          "uid" : "5d28c329c127277c",
+          "parentUid" : "481cc747f0f6b8803284ad54a6fa01c1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1630783160501,
+            "stop" : 1630783161192,
+            "duration" : 691
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "481cc747f0f6b8803284ad54a6fa01c1"
+      } ],
+      "uid" : "1fcb2e6ec8e5b5e8a1f2a70b87c80b24"
+    } ],
+    "uid" : "940a09faf31371a51747026c9d178f0a"
+  } ]
+}
