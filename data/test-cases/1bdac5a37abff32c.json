@@ -1,12 +1,12 @@
 {
-  "uid" : "9d737a8edcc743d",
-  "name" : "searchForPartialTitle",
-  "fullName" : "search.SearchTests.searchForPartialTitle",
-  "historyId" : "4141efec1ea0ac2fc04c297c8265d820",
+  "uid" : "1bdac5a37abff32c",
+  "name" : "searchForExactTitle",
+  "fullName" : "search.SearchTests.searchForExactTitle",
+  "historyId" : "65ab42225f70fb1c40828efd85dc18c7",
   "time" : {
-    "start" : 1630798754992,
-    "stop" : 1630798755598,
-    "duration" : 606
+    "start" : 1630798760540,
+    "stop" : 1630798761035,
+    "duration" : 495
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,59 +14,59 @@
   "beforeStages" : [ {
     "name" : "setUp",
     "time" : {
-      "start" : 1630798727693,
-      "stop" : 1630798754220,
-      "duration" : 26527
+      "start" : 1630798735094,
+      "stop" : 1630798760438,
+      "duration" : 25344
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
     "hasContent" : false,
+    "stepsCount" : 0,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Search for partial title",
+      "name" : "Search for exact title",
       "time" : {
-        "start" : 1630798754992,
-        "stop" : 1630798755598,
-        "duration" : 606
+        "start" : 1630798760598,
+        "stop" : 1630798761019,
+        "duration" : 421
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 1,
     "hasContent" : true,
+    "stepsCount" : 1,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false
   },
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1630798755602,
-      "stop" : 1630798755802,
-      "duration" : 200
+      "start" : 1630798761815,
+      "stop" : 1630798762113,
+      "duration" : 298
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
     "hasContent" : false,
+    "stepsCount" : 0,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false
   } ],
@@ -78,7 +78,7 @@
     "value" : "search.SearchTests"
   }, {
     "name" : "testMethod",
-    "value" : "searchForPartialTitle"
+    "value" : "searchForExactTitle"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -93,7 +93,7 @@
     "value" : "fv-az71-264"
   }, {
     "name" : "thread",
-    "value" : "3120@fv-az71-264.main(1)"
+    "value" : "1732@fv-az71-264.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -114,6 +114,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "9d737a8edcc743d.json",
+  "source" : "1bdac5a37abff32c.json",
   "parameterValues" : [ ]
 }
