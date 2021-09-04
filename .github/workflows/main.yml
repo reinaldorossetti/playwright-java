@@ -15,14 +15,17 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu-18.04, ubuntu-20.04, macos-10.15, windows-2019]
+        os: [ubuntu-20.04, macos-10.15, windows-2019]
         playwright: [1.12.0]
         headless: [true, false]
     runs-on: ${{ matrix.os }}
     steps:
     - uses: actions/checkout@v2
-    - uses: actions/setup-node@v1
-    - uses: ./
-    - name: Install dependencies
-      run: npm install playwright@${{ matrix.playwright }}
+    - uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+    - name: Install operating system dependencies
+      run: npx playwright install-deps
+    - name: Run your tests
+      run: npm test
 
