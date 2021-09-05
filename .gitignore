@@ -2,3 +2,5 @@
 /.idea/
 /.allure/
 /node_modules/
+/screenshot.png
+/allure-report/

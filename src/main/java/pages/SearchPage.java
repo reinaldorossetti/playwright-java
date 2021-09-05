@@ -2,12 +2,10 @@ package pages;
 
 import com.microsoft.playwright.ElementHandle;
 import com.microsoft.playwright.Page;
+import com.microsoft.playwright.options.WaitForSelectorState;
 
 import java.util.List;
 import java.util.stream.Collectors;
-
-import static com.microsoft.playwright.Page.WaitForSelectorOptions.State.ATTACHED;
-import static com.microsoft.playwright.Page.WaitForSelectorOptions.State.DETACHED;
 
 public class SearchPage {
 
@@ -27,14 +25,16 @@ public class SearchPage {
         clearSearchBar();
         page.fill(locator_searchBar, query);
 
-        Page.WaitForSelectorOptions expectedState = new Page.WaitForSelectorOptions().withState(ATTACHED);
+        Page.WaitForSelectorOptions expectedState = new Page.WaitForSelectorOptions()
+                .setState(WaitForSelectorState.ATTACHED);
         page.waitForSelector(locator_hiddenBooks,expectedState);
     }
 
     public void clearSearchBar(){
         page.fill(locator_searchBar, "");
 
-        Page.WaitForSelectorOptions expectedState = new Page.WaitForSelectorOptions().withState(DETACHED);
+        Page.WaitForSelectorOptions expectedState = new Page.WaitForSelectorOptions()
+                .setState(WaitForSelectorState.DETACHED);
         page.waitForSelector(locator_hiddenBooks,expectedState);
     }
 
