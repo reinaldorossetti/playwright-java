@@ -1,23 +1,20 @@
-package base;
+package br.reinaldo.base;
 
 import com.microsoft.playwright.*;
 import io.qameta.allure.Attachment;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeClass;
-import pages.SearchPage;
+
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.BeforeAll;
 
 import java.nio.file.Paths;
 
 public class BaseTests {
 
-    private Browser browser;
-    protected SearchPage searchPage;
-    Page page;
+    private static Browser browser;
+    public static Page page;
 
-    @BeforeClass
-    public void setUp(){
+    @BeforeAll
+    static void setUp(){
 
         //Open a browser (supports Chromium (Chrome, Edge), Firefox, and Webkit (Safari))
         browser = Playwright
@@ -28,10 +25,8 @@ public class BaseTests {
         //A single browser tab
         page = browser.newPage();
         page.navigate("https://automationbookstore.dev/");
-        searchPage = new SearchPage(page);
     }
 
-    @AfterTest
     @Attachment(value = "PageScreenAfterTest", type = "image/png")
     public byte[] screenshot() {
         return page.screenshot(new Page.ScreenshotOptions()
@@ -39,8 +34,8 @@ public class BaseTests {
                 .setFullPage(true));
     }
 
-    @AfterSuite
-    public void tearDown(){
+    @AfterAll
+    static void tearDown(){
         page.close();
         browser.close();
     }

@@ -1,4 +1,4 @@
-package pages;
+package br.reinaldo.pages;
 
 import com.microsoft.playwright.ElementHandle;
 import com.microsoft.playwright.Page;

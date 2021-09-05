@@ -1,12 +1,18 @@
 package search;
 
-import base.BaseTests;
+import br.reinaldo.base.BaseTests;
 import io.qameta.allure.Step;
-import org.testng.annotations.Test;
+import org.junit.jupiter.api.Test;
+import br.reinaldo.pages.SearchPage;
+
 import java.util.List;
-import static org.testng.Assert.*;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class SearchTests extends BaseTests {
+
+    SearchPage searchPage = new SearchPage(page);
 
     @Test
     @Step("Search for exact title")
@@ -15,7 +21,8 @@ public class SearchTests extends BaseTests {
         searchPage.search(title);
         assertEquals(searchPage.getNumberOfVisibleBooks(), 1, "Number of visible books");
         assertTrue(searchPage.getVisibleBooks().contains(title), "Title of visible book");
-     }
+        screenshot();
+    }
 
      @Test
      @Step("Search for partial title")
@@ -32,5 +39,6 @@ public class SearchTests extends BaseTests {
 
          assertEquals(searchPage.getNumberOfVisibleBooks(), expectedBooks.size(), "Number of visible books");
          assertEquals(searchPage.getVisibleBooks(), expectedBooks,"Titles of visible books");
-     }
+         screenshot();
+    }
 }
