@@ -1,12 +1,12 @@
 {
-  "uid" : "f7ed19f7e8d9e5cd",
-  "name" : "searchForExactTitle()",
-  "fullName" : "search.SearchTests.searchForExactTitle",
-  "historyId" : "ffacb1c5d105cbb05d339d7475d4de04",
+  "uid" : "7745ade2009a57b0",
+  "name" : "searchForPartialTitle()",
+  "fullName" : "search.SearchTests.searchForPartialTitle",
+  "historyId" : "e99804c7e1a63326f8bbba2908d99ecd",
   "time" : {
-    "start" : 1630877726035,
-    "stop" : 1630877727023,
-    "duration" : 988
+    "start" : 1630885065575,
+    "stop" : 1630885066556,
+    "duration" : 981
   },
   "description" : "",
   "status" : "passed",
@@ -17,20 +17,20 @@
     "description" : "",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Search for exact title",
+      "name" : "Search for partial title",
       "time" : {
-        "start" : 1630877726036,
-        "stop" : 1630877727023,
-        "duration" : 987
+        "start" : 1630885065596,
+        "stop" : 1630885066546,
+        "duration" : 950
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "51ee7f47b2c3ce87",
+        "uid" : "c61269708319989b",
         "name" : "PageScreenAfterTest",
-        "source" : "51ee7f47b2c3ce87.png",
+        "source" : "c61269708319989b.png",
         "type" : "image/png",
-        "size" : 167555
+        "size" : 291935
       } ],
       "parameters" : [ ],
       "stepsCount" : 0,
@@ -48,10 +48,10 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "host",
-    "value" : "Mac-1630877232642.local"
+    "value" : "Mac-1630877582461.local"
   }, {
     "name" : "thread",
-    "value" : "4808@Mac-1630877232642.local.main(1)"
+    "value" : "2397@Mac-1630877582461.local.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -66,7 +66,7 @@
     "value" : "search.SearchTests"
   }, {
     "name" : "testMethod",
-    "value" : "searchForExactTitle"
+    "value" : "searchForPartialTitle"
   }, {
     "name" : "suite",
     "value" : "search.SearchTests"
@@ -84,6 +84,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "f7ed19f7e8d9e5cd.json",
+  "source" : "7745ade2009a57b0.json",
   "parameterValues" : [ ]
 }
