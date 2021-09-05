@@ -1,12 +1,12 @@
 {
-  "uid" : "1bdac5a37abff32c",
-  "name" : "searchForExactTitle",
-  "fullName" : "search.SearchTests.searchForExactTitle",
-  "historyId" : "65ab42225f70fb1c40828efd85dc18c7",
+  "uid" : "a5cfecab84175b89",
+  "name" : "searchForPartialTitle",
+  "fullName" : "search.SearchTests.searchForPartialTitle",
+  "historyId" : "4141efec1ea0ac2fc04c297c8265d820",
   "time" : {
-    "start" : 1630798760540,
-    "stop" : 1630798761035,
-    "duration" : 495
+    "start" : 1630874274220,
+    "stop" : 1630874274898,
+    "duration" : 678
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,61 +14,83 @@
   "beforeStages" : [ {
     "name" : "setUp",
     "time" : {
-      "start" : 1630798735094,
-      "stop" : 1630798760438,
-      "duration" : 25344
+      "start" : 1630874265391,
+      "stop" : 1630874273307,
+      "duration" : 7916
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Search for exact title",
+      "name" : "Search for partial title",
       "time" : {
-        "start" : 1630798760598,
-        "stop" : 1630798761019,
-        "duration" : 421
+        "start" : 1630874274221,
+        "stop" : 1630874274898,
+        "duration" : 677
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : true,
     "stepsCount" : 1,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
   },
   "afterStages" : [ {
+    "name" : "screenshot",
+    "time" : {
+      "start" : 1630874274903,
+      "stop" : 1630874275454,
+      "duration" : 551
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a559a875b896d82c",
+      "name" : "PageScreenAfterTest",
+      "source" : "a559a875b896d82c.png",
+      "type" : "image/png",
+      "size" : 291919
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
     "name" : "tearDown",
     "time" : {
-      "start" : 1630798761815,
-      "stop" : 1630798762113,
-      "duration" : 298
+      "start" : 1630874275483,
+      "stop" : 1630874275662,
+      "duration" : 179
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
   } ],
   "labels" : [ {
     "name" : "package",
@@ -78,7 +100,7 @@
     "value" : "search.SearchTests"
   }, {
     "name" : "testMethod",
-    "value" : "searchForExactTitle"
+    "value" : "searchForPartialTitle"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -90,10 +112,10 @@
     "value" : "search.SearchTests"
   }, {
     "name" : "host",
-    "value" : "fv-az71-264"
+    "value" : "Mac-1630874117646.local"
   }, {
     "name" : "thread",
-    "value" : "1732@fv-az71-264.main(1)"
+    "value" : "2285@Mac-1630874117646.local.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -114,6 +136,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "1bdac5a37abff32c.json",
+  "source" : "a5cfecab84175b89.json",
   "parameterValues" : [ ]
 }
