@@ -2,42 +2,34 @@
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
   "children" : [ {
-    "name" : "Surefire suite",
+    "name" : "search.SearchTests",
     "children" : [ {
-      "name" : "Surefire test",
-      "children" : [ {
-        "name" : "search.SearchTests",
-        "children" : [ {
-          "name" : "searchForExactTitle",
-          "uid" : "58beefcd6875516e",
-          "parentUid" : "481cc747f0f6b8803284ad54a6fa01c1",
-          "status" : "passed",
-          "time" : {
-            "start" : 1630874273468,
-            "stop" : 1630874274033,
-            "duration" : 565
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "searchForPartialTitle",
-          "uid" : "a5cfecab84175b89",
-          "parentUid" : "481cc747f0f6b8803284ad54a6fa01c1",
-          "status" : "passed",
-          "time" : {
-            "start" : 1630874274220,
-            "stop" : 1630874274898,
-            "duration" : 678
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        } ],
-        "uid" : "481cc747f0f6b8803284ad54a6fa01c1"
-      } ],
-      "uid" : "1fcb2e6ec8e5b5e8a1f2a70b87c80b24"
+      "name" : "searchForPartialTitle()",
+      "uid" : "3adc70ded5de37d0",
+      "parentUid" : "75613dfd59188c1ee48b0751d1baec6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630877222661,
+        "stop" : 1630877223698,
+        "duration" : 1037
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "searchForExactTitle()",
+      "uid" : "4dcf247def8bdb84",
+      "parentUid" : "75613dfd59188c1ee48b0751d1baec6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630877223804,
+        "stop" : 1630877224731,
+        "duration" : 927
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
     } ],
-    "uid" : "940a09faf31371a51747026c9d178f0a"
+    "uid" : "75613dfd59188c1ee48b0751d1baec6b"
   } ]
 }

@@ -4,27 +4,27 @@
   "children" : [ {
     "name" : "search.SearchTests",
     "children" : [ {
-      "name" : "searchForExactTitle",
-      "uid" : "58beefcd6875516e",
+      "name" : "searchForPartialTitle",
+      "uid" : "3adc70ded5de37d0",
       "parentUid" : "38851be6de2269bc2865ce0a7bc92e02",
       "status" : "passed",
       "time" : {
-        "start" : 1630874273468,
-        "stop" : 1630874274033,
-        "duration" : 565
+        "start" : 1630877222661,
+        "stop" : 1630877223698,
+        "duration" : 1037
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "searchForPartialTitle",
-      "uid" : "a5cfecab84175b89",
+      "name" : "searchForExactTitle",
+      "uid" : "4dcf247def8bdb84",
       "parentUid" : "38851be6de2269bc2865ce0a7bc92e02",
       "status" : "passed",
       "time" : {
-        "start" : 1630874274220,
-        "stop" : 1630874274898,
-        "duration" : 678
+        "start" : 1630877223804,
+        "stop" : 1630877224731,
+        "duration" : 927
       },
       "flaky" : false,
       "newFailed" : false,

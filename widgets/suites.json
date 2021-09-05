@@ -1,8 +1,8 @@
 {
   "total" : 1,
   "items" : [ {
-    "uid" : "940a09faf31371a51747026c9d178f0a",
-    "name" : "Surefire suite",
+    "uid" : "75613dfd59188c1ee48b0751d1baec6b",
+    "name" : "search.SearchTests",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
