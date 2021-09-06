@@ -1,12 +1,12 @@
 {
-  "uid" : "c1c9e464f4f9eb90",
+  "uid" : "bdd9986d06d31bd3",
   "name" : "searchForPartialTitle()",
   "fullName" : "search.SearchTests.searchForPartialTitle",
   "historyId" : "e99804c7e1a63326f8bbba2908d99ecd",
   "time" : {
-    "start" : 1630971472949,
-    "stop" : 1630971474067,
-    "duration" : 1118
+    "start" : 1630971518863,
+    "stop" : 1630971520671,
+    "duration" : 1808
   },
   "description" : "",
   "status" : "passed",
@@ -19,16 +19,16 @@
     "steps" : [ {
       "name" : "Search for partial title",
       "time" : {
-        "start" : 1630971472997,
-        "stop" : 1630971474057,
-        "duration" : 1060
+        "start" : 1630971518897,
+        "stop" : 1630971520641,
+        "duration" : 1744
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "79715e2d681283db",
+        "uid" : "9ace66d27e3a1803",
         "name" : "PageScreenAfterTest",
-        "source" : "79715e2d681283db.png",
+        "source" : "9ace66d27e3a1803.png",
         "type" : "image/png",
         "size" : 291935
       } ],
@@ -48,10 +48,10 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "host",
-    "value" : "Mac-1630970888903.local"
+    "value" : "Mac-1630971390119.local"
   }, {
     "name" : "thread",
-    "value" : "2261@Mac-1630970888903.local.main(1)"
+    "value" : "2522@Mac-1630971390119.local.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -84,6 +84,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c1c9e464f4f9eb90.json",
+  "source" : "bdd9986d06d31bd3.json",
   "parameterValues" : [ ]
 }

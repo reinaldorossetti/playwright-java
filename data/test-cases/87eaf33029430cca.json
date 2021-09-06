@@ -1,12 +1,12 @@
 {
-  "uid" : "f263108341e0157b",
+  "uid" : "87eaf33029430cca",
   "name" : "searchForExactTitle()",
   "fullName" : "search.SearchTests.searchForExactTitle",
   "historyId" : "ffacb1c5d105cbb05d339d7475d4de04",
   "time" : {
-    "start" : 1630971474171,
-    "stop" : 1630971475059,
-    "duration" : 888
+    "start" : 1630971521155,
+    "stop" : 1630971522008,
+    "duration" : 853
   },
   "description" : "",
   "status" : "passed",
@@ -19,18 +19,18 @@
     "steps" : [ {
       "name" : "Search for exact title",
       "time" : {
-        "start" : 1630971474172,
-        "stop" : 1630971475058,
-        "duration" : 886
+        "start" : 1630971521156,
+        "stop" : 1630971522008,
+        "duration" : 852
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "9238c6c52fd4415c",
+        "uid" : "dbe3938f1bc26bdd",
         "name" : "PageScreenAfterTest",
-        "source" : "9238c6c52fd4415c.png",
+        "source" : "dbe3938f1bc26bdd.png",
         "type" : "image/png",
-        "size" : 92336
+        "size" : 109842
       } ],
       "parameters" : [ ],
       "stepsCount" : 0,
@@ -48,10 +48,10 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "host",
-    "value" : "Mac-1630970888903.local"
+    "value" : "Mac-1630971390119.local"
   }, {
     "name" : "thread",
-    "value" : "2261@Mac-1630970888903.local.main(1)"
+    "value" : "2522@Mac-1630971390119.local.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -84,6 +84,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "f263108341e0157b.json",
+  "source" : "87eaf33029430cca.json",
   "parameterValues" : [ ]
 }
