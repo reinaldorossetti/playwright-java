@@ -1,12 +1,12 @@
 {
-  "uid" : "812f237a2d8cd583",
-  "name" : "searchForExactTitle()",
-  "fullName" : "search.SearchTests.searchForExactTitle",
-  "historyId" : "ffacb1c5d105cbb05d339d7475d4de04",
+  "uid" : "38ac0c430b1665a5",
+  "name" : "searchForPartialTitle()",
+  "fullName" : "search.SearchTests.searchForPartialTitle",
+  "historyId" : "e99804c7e1a63326f8bbba2908d99ecd",
   "time" : {
-    "start" : 1631057924571,
-    "stop" : 1631057925271,
-    "duration" : 700
+    "start" : 1631057925220,
+    "stop" : 1631057925960,
+    "duration" : 740
   },
   "description" : "",
   "status" : "passed",
@@ -17,41 +17,41 @@
     "description" : "",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Search for exact title",
+      "name" : "Search for partial title",
       "time" : {
-        "start" : 1631057924572,
-        "stop" : 1631057925270,
-        "duration" : 698
+        "start" : 1631057925268,
+        "stop" : 1631057925943,
+        "duration" : 675
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "130c9d9e1e201695",
+        "uid" : "8f029943501f1a7b",
         "name" : "PageScreenAfterTest",
-        "source" : "130c9d9e1e201695.png",
+        "source" : "8f029943501f1a7b.png",
         "type" : "image/png",
-        "size" : 88018
+        "size" : 276841
       } ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 1,
+      "stepsCount" : 0,
       "hasContent" : true,
-      "stepsCount" : 0
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 1,
+    "stepsCount" : 1,
     "hasContent" : true,
-    "stepsCount" : 1
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "host",
-    "value" : "fv-az71-28"
+    "value" : "fv-az30-78"
   }, {
     "name" : "thread",
-    "value" : "4364@fv-az71-28.main(1)"
+    "value" : "3704@fv-az30-78.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -66,7 +66,7 @@
     "value" : "search.SearchTests"
   }, {
     "name" : "testMethod",
-    "value" : "searchForExactTitle"
+    "value" : "searchForPartialTitle"
   }, {
     "name" : "suite",
     "value" : "search.SearchTests"
@@ -84,6 +84,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "812f237a2d8cd583.json",
+  "source" : "38ac0c430b1665a5.json",
   "parameterValues" : [ ]
 }
