@@ -1,12 +1,12 @@
 {
-  "uid" : "92a5926cee357c33",
+  "uid" : "144dae859f92fce2",
   "name" : "searchForExactTitle()",
   "fullName" : "search.SearchTests.searchForExactTitle",
   "historyId" : "ffacb1c5d105cbb05d339d7475d4de04",
   "time" : {
-    "start" : 1630971537737,
-    "stop" : 1630971538465,
-    "duration" : 728
+    "start" : 1631057884125,
+    "stop" : 1631057884908,
+    "duration" : 783
   },
   "description" : "",
   "status" : "passed",
@@ -19,39 +19,39 @@
     "steps" : [ {
       "name" : "Search for exact title",
       "time" : {
-        "start" : 1630971537738,
-        "stop" : 1630971538464,
-        "duration" : 726
+        "start" : 1631057884126,
+        "stop" : 1631057884908,
+        "duration" : 782
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "7e5dafc4d050c1a1",
+        "uid" : "604c5ab22cf006ac",
         "name" : "PageScreenAfterTest",
-        "source" : "7e5dafc4d050c1a1.png",
+        "source" : "604c5ab22cf006ac.png",
         "type" : "image/png",
-        "size" : 88018
+        "size" : 117661
       } ],
       "parameters" : [ ],
       "stepsCount" : 0,
-      "hasContent" : true,
+      "attachmentsCount" : 1,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 1
+      "hasContent" : true
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "stepsCount" : 1,
-    "hasContent" : true,
+    "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 1
+    "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "host",
-    "value" : "fv-az71-28"
+    "value" : "Mac-1631054212269.local"
   }, {
     "name" : "thread",
-    "value" : "6544@fv-az71-28.main(1)"
+    "value" : "2118@Mac-1631054212269.local.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -84,6 +84,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "92a5926cee357c33.json",
+  "source" : "144dae859f92fce2.json",
   "parameterValues" : [ ]
 }
