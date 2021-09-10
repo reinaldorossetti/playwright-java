@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "search.SearchTests",
+    "children" : [ {
+      "name" : "searchForPartialTitle",
+      "uid" : "c831a3c8d242f65",
+      "parentUid" : "38851be6de2269bc2865ce0a7bc92e02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631317197255,
+        "stop" : 1631317198060,
+        "duration" : 805
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "searchForExactTitle",
+      "uid" : "9eb235dbba7b0b19",
+      "parentUid" : "38851be6de2269bc2865ce0a7bc92e02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631317198282,
+        "stop" : 1631317199021,
+        "duration" : 739
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "search.SearchTests"
+  } ]
+}

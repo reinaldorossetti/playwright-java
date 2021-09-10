@@ -1,0 +1,35 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "search.SearchTests",
+    "children" : [ {
+      "name" : "searchForPartialTitle()",
+      "uid" : "c831a3c8d242f65",
+      "parentUid" : "75613dfd59188c1ee48b0751d1baec6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631317197255,
+        "stop" : 1631317198060,
+        "duration" : 805
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "searchForExactTitle()",
+      "uid" : "9eb235dbba7b0b19",
+      "parentUid" : "75613dfd59188c1ee48b0751d1baec6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631317198282,
+        "stop" : 1631317199021,
+        "duration" : 739
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "75613dfd59188c1ee48b0751d1baec6b"
+  } ]
+}
