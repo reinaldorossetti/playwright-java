@@ -1,4 +1,4 @@
-name: "tests"
+name: "testes regressivos"
 on:
   pull_request:
   push:
@@ -11,13 +11,14 @@ on:
 
 jobs:
   test-linux:
-    name: Playwright@${{ matrix.playwright}} ${{ matrix.os }} headless=${{ matrix.headless }}
+    name: Playwright@${{ matrix.browser}} ${{ matrix.os }} headless=${{ matrix.headless }}
     strategy:
       fail-fast: false
       matrix:
-        os: [macos-10.15, windows-2019]
+        os: [windows-2019]
         playwright: [1.12.0]
-        headless: [true, false]
+        headless: [false]
+        browser: [chrome,firefox,msedge,safari,chromium]
     runs-on: ${{ matrix.os }}
     steps:
     - uses: actions/checkout@v2
@@ -49,13 +50,15 @@ jobs:
     - name: Build with Maven
       run: mvn -B package -D skipTests --no-transfer-progress
     - name: Run tests
-      run: mvn test --no-transfer-progress
+      if: always()
+      continue-on-error: true
+      run: mvn test -DbrowserType=${{ matrix.browser }} --no-transfer-progress
       env:
         BROWSER: chromium
         BROWSER_CHANNEL: ${{ matrix.browser-channel }}
     - name: 📊 Step 5 - Collect Allure files and generate allure-report folder
       run: |
-        allure generate ./target/allure-results -o allure-report
+        allure generate ./target/allure-results -o allure-report/
     - name: 🎁 Step 6 - Publishing Allure artifact to GitHub Actions
       uses: actions/upload-artifact@v2
       with:
@@ -68,4 +71,4 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_branch: gh-pages  # default: gh-pages
         publish_dir: allure-report
-
+        destination_dir: ${{ matrix.browser}}
