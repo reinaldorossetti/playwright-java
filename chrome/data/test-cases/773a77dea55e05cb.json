@@ -1,0 +1,89 @@
+{
+  "uid" : "773a77dea55e05cb",
+  "name" : "searchForPartialTitle()",
+  "fullName" : "search.SearchTests.searchForPartialTitle",
+  "historyId" : "e99804c7e1a63326f8bbba2908d99ecd",
+  "time" : {
+    "start" : 1631317170418,
+    "stop" : 1631317171184,
+    "duration" : 766
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Search for partial title",
+      "time" : {
+        "start" : 1631317170467,
+        "stop" : 1631317171161,
+        "duration" : 694
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5f8e59d77fc0dffd",
+        "name" : "PageScreenAfterTest",
+        "source" : "5f8e59d77fc0dffd.png",
+        "type" : "image/png",
+        "size" : 276841
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az71-613"
+  }, {
+    "name" : "thread",
+    "value" : "6448@fv-az71-613.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "search.SearchTests"
+  }, {
+    "name" : "testClass",
+    "value" : "search.SearchTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "searchForPartialTitle"
+  }, {
+    "name" : "suite",
+    "value" : "search.SearchTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "773a77dea55e05cb.json",
+  "parameterValues" : [ ]
+}
