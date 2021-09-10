@@ -1,12 +1,12 @@
 {
-  "uid" : "2b896e9c6a4b07d",
-  "name" : "searchForExactTitle()",
-  "fullName" : "search.SearchTests.searchForExactTitle",
-  "historyId" : "ffacb1c5d105cbb05d339d7475d4de04",
+  "uid" : "fcc828fba74c2b7d",
+  "name" : "searchForPartialTitle()",
+  "fullName" : "search.SearchTests.searchForPartialTitle",
+  "historyId" : "e99804c7e1a63326f8bbba2908d99ecd",
   "time" : {
-    "start" : 1631230717487,
-    "stop" : 1631230718153,
-    "duration" : 666
+    "start" : 1631317071841,
+    "stop" : 1631317072907,
+    "duration" : 1066
   },
   "description" : "",
   "status" : "passed",
@@ -17,41 +17,41 @@
     "description" : "",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Search for exact title",
+      "name" : "Search for partial title",
       "time" : {
-        "start" : 1631230717488,
-        "stop" : 1631230718153,
-        "duration" : 665
+        "start" : 1631317071872,
+        "stop" : 1631317072895,
+        "duration" : 1023
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "338ddd48bc495d67",
+        "uid" : "330b189ba9104a47",
         "name" : "PageScreenAfterTest",
-        "source" : "338ddd48bc495d67.png",
+        "source" : "330b189ba9104a47.png",
         "type" : "image/png",
-        "size" : 88018
+        "size" : 291935
       } ],
       "parameters" : [ ],
-      "hasContent" : true,
       "stepsCount" : 0,
       "attachmentsCount" : 1,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : true,
     "stepsCount" : 1,
     "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "host",
-    "value" : "fv-az71-613"
+    "value" : "Mac-1631313135265.local"
   }, {
     "name" : "thread",
-    "value" : "6716@fv-az71-613.main(1)"
+    "value" : "5563@Mac-1631313135265.local.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -66,7 +66,7 @@
     "value" : "search.SearchTests"
   }, {
     "name" : "testMethod",
-    "value" : "searchForExactTitle"
+    "value" : "searchForPartialTitle"
   }, {
     "name" : "suite",
     "value" : "search.SearchTests"
@@ -84,6 +84,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "2b896e9c6a4b07d.json",
+  "source" : "fcc828fba74c2b7d.json",
   "parameterValues" : [ ]
 }
