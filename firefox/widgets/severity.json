@@ -1,20 +1,20 @@
 [ {
-  "uid" : "645d431f5922f305",
-  "name" : "searchForPartialTitle()",
+  "uid" : "60c43b4fa1efd057",
+  "name" : "searchForExactTitle()",
   "time" : {
-    "start" : 1631317173664,
-    "stop" : 1631317174420,
-    "duration" : 756
+    "start" : 1631403508770,
+    "stop" : 1631403509487,
+    "duration" : 717
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e019eb3d1ca7b1b1",
-  "name" : "searchForExactTitle()",
+  "uid" : "c6825cd4f3106a99",
+  "name" : "searchForPartialTitle()",
   "time" : {
-    "start" : 1631317174639,
-    "stop" : 1631317175392,
-    "duration" : 753
+    "start" : 1631403507871,
+    "stop" : 1631403508625,
+    "duration" : 754
   },
   "status" : "passed",
   "severity" : "normal"
