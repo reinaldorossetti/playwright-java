@@ -1,12 +1,12 @@
 {
-  "uid" : "82b822bead012e18",
+  "uid" : "c9adbf8c84a3477f",
   "name" : "searchForExactTitle()",
   "fullName" : "search.SearchTests.searchForExactTitle",
   "historyId" : "ffacb1c5d105cbb05d339d7475d4de04",
   "time" : {
-    "start" : 1631317165089,
-    "stop" : 1631317165824,
-    "duration" : 735
+    "start" : 1631489906582,
+    "stop" : 1631489907303,
+    "duration" : 721
   },
   "description" : "",
   "status" : "passed",
@@ -19,39 +19,39 @@
     "steps" : [ {
       "name" : "Search for exact title",
       "time" : {
-        "start" : 1631317165091,
-        "stop" : 1631317165823,
-        "duration" : 732
+        "start" : 1631489906583,
+        "stop" : 1631489907303,
+        "duration" : 720
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "344bd2072b06d1ca",
+        "uid" : "a2e8783568c40403",
         "name" : "PageScreenAfterTest",
-        "source" : "344bd2072b06d1ca.png",
+        "source" : "a2e8783568c40403.png",
         "type" : "image/png",
         "size" : 88018
       } ],
       "parameters" : [ ],
-      "attachmentsCount" : 1,
-      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : true,
-      "stepsCount" : 0
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
     "hasContent" : true,
-    "stepsCount" : 1
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
   },
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "host",
-    "value" : "fv-az30-769"
+    "value" : "fv-az71-613"
   }, {
     "name" : "thread",
-    "value" : "2564@fv-az30-769.main(1)"
+    "value" : "6772@fv-az71-613.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -84,6 +84,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "82b822bead012e18.json",
+  "source" : "c9adbf8c84a3477f.json",
   "parameterValues" : [ ]
 }
