@@ -1,12 +1,12 @@
 {
-  "uid" : "c6825cd4f3106a99",
-  "name" : "searchForPartialTitle()",
-  "fullName" : "search.SearchTests.searchForPartialTitle",
-  "historyId" : "e99804c7e1a63326f8bbba2908d99ecd",
+  "uid" : "e9bffdbeab223467",
+  "name" : "searchForExactTitle()",
+  "fullName" : "search.SearchTests.searchForExactTitle",
+  "historyId" : "ffacb1c5d105cbb05d339d7475d4de04",
   "time" : {
-    "start" : 1631403507871,
-    "stop" : 1631403508625,
-    "duration" : 754
+    "start" : 1631489911880,
+    "stop" : 1631489912574,
+    "duration" : 694
   },
   "description" : "",
   "status" : "passed",
@@ -17,20 +17,20 @@
     "description" : "",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Search for partial title",
+      "name" : "Search for exact title",
       "time" : {
-        "start" : 1631403507914,
-        "stop" : 1631403508609,
-        "duration" : 695
+        "start" : 1631489911881,
+        "stop" : 1631489912574,
+        "duration" : 693
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "b2b4c074ea0fc81c",
+        "uid" : "414e15596956e012",
         "name" : "PageScreenAfterTest",
-        "source" : "b2b4c074ea0fc81c.png",
+        "source" : "414e15596956e012.png",
         "type" : "image/png",
-        "size" : 276841
+        "size" : 88018
       } ],
       "parameters" : [ ],
       "stepsCount" : 0,
@@ -51,7 +51,7 @@
     "value" : "fv-az30-769"
   }, {
     "name" : "thread",
-    "value" : "2740@fv-az30-769.main(1)"
+    "value" : "1996@fv-az30-769.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -66,7 +66,7 @@
     "value" : "search.SearchTests"
   }, {
     "name" : "testMethod",
-    "value" : "searchForPartialTitle"
+    "value" : "searchForExactTitle"
   }, {
     "name" : "suite",
     "value" : "search.SearchTests"
@@ -84,6 +84,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c6825cd4f3106a99.json",
+  "source" : "e9bffdbeab223467.json",
   "parameterValues" : [ ]
 }
