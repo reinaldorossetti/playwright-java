@@ -1,12 +1,12 @@
 {
-  "uid" : "6d8e03f666d4f6c",
+  "uid" : "1710d9e0061e1269",
   "name" : "searchForPartialTitle()",
   "fullName" : "search.SearchTests.searchForPartialTitle",
   "historyId" : "e99804c7e1a63326f8bbba2908d99ecd",
   "time" : {
-    "start" : 1631835537738,
-    "stop" : 1631835538476,
-    "duration" : 738
+    "start" : 1632094720551,
+    "stop" : 1632094721331,
+    "duration" : 780
   },
   "description" : "",
   "status" : "passed",
@@ -19,31 +19,31 @@
     "steps" : [ {
       "name" : "Search for partial title",
       "time" : {
-        "start" : 1631835537780,
-        "stop" : 1631835538456,
-        "duration" : 676
+        "start" : 1632094720606,
+        "stop" : 1632094721317,
+        "duration" : 711
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "d6b4bdcc109d228f",
+        "uid" : "907cbd50db7b2e0b",
         "name" : "PageScreenAfterTest",
-        "source" : "d6b4bdcc109d228f.png",
+        "source" : "907cbd50db7b2e0b.png",
         "type" : "image/png",
         "size" : 276841
       } ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : true,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 1,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : true
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 1,
-    "hasContent" : true,
+    "shouldDisplayMessage" : false,
     "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false
+    "stepsCount" : 1,
+    "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -51,7 +51,7 @@
     "value" : "fv-az30-743"
   }, {
     "name" : "thread",
-    "value" : "2808@fv-az30-743.main(1)"
+    "value" : "3332@fv-az30-743.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -84,6 +84,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "6d8e03f666d4f6c.json",
+  "source" : "1710d9e0061e1269.json",
   "parameterValues" : [ ]
 }
