@@ -1,12 +1,12 @@
 {
-  "uid" : "e00234ccbb8e2d1f",
+  "uid" : "b206a5281ef4cd6e",
   "name" : "searchForExactTitle()",
   "fullName" : "search.SearchTests.searchForExactTitle",
   "historyId" : "ffacb1c5d105cbb05d339d7475d4de04",
   "time" : {
-    "start" : 1632267612471,
-    "stop" : 1632267613199,
-    "duration" : 728
+    "start" : 1632353978900,
+    "stop" : 1632353979694,
+    "duration" : 794
   },
   "description" : "",
   "status" : "passed",
@@ -19,31 +19,31 @@
     "steps" : [ {
       "name" : "Search for exact title",
       "time" : {
-        "start" : 1632267612472,
-        "stop" : 1632267613198,
-        "duration" : 726
+        "start" : 1632353978902,
+        "stop" : 1632353979693,
+        "duration" : 791
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "7216dd7825ce4be3",
+        "uid" : "87a0caa316e44513",
         "name" : "PageScreenAfterTest",
-        "source" : "7216dd7825ce4be3.png",
+        "source" : "87a0caa316e44513.png",
         "type" : "image/png",
         "size" : 88018
       } ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : true,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 1
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 1,
     "hasContent" : true,
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 1
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -51,7 +51,7 @@
     "value" : "fv-az71-898"
   }, {
     "name" : "thread",
-    "value" : "4484@fv-az71-898.main(1)"
+    "value" : "1288@fv-az71-898.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -84,6 +84,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "e00234ccbb8e2d1f.json",
+  "source" : "b206a5281ef4cd6e.json",
   "parameterValues" : [ ]
 }
