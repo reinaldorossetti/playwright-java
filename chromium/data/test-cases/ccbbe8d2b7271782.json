@@ -1,12 +1,12 @@
 {
-  "uid" : "c1731e998f3eedde",
+  "uid" : "ccbbe8d2b7271782",
   "name" : "searchForExactTitle()",
   "fullName" : "search.SearchTests.searchForExactTitle",
   "historyId" : "ffacb1c5d105cbb05d339d7475d4de04",
   "time" : {
-    "start" : 1632526759300,
-    "stop" : 1632526760054,
-    "duration" : 754
+    "start" : 1632613156650,
+    "stop" : 1632613157460,
+    "duration" : 810
   },
   "description" : "",
   "status" : "passed",
@@ -19,31 +19,31 @@
     "steps" : [ {
       "name" : "Search for exact title",
       "time" : {
-        "start" : 1632526759302,
-        "stop" : 1632526760054,
-        "duration" : 752
+        "start" : 1632613156651,
+        "stop" : 1632613157459,
+        "duration" : 808
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "c53e31079579a705",
+        "uid" : "376ecbc94ec6763b",
         "name" : "PageScreenAfterTest",
-        "source" : "c53e31079579a705.png",
+        "source" : "376ecbc94ec6763b.png",
         "type" : "image/png",
         "size" : 88018
       } ],
       "parameters" : [ ],
-      "hasContent" : true,
-      "stepsCount" : 0,
       "attachmentsCount" : 1,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : true,
-    "stepsCount" : 1,
     "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -51,7 +51,7 @@
     "value" : "fv-az30-737"
   }, {
     "name" : "thread",
-    "value" : "4292@fv-az30-737.main(1)"
+    "value" : "2248@fv-az30-737.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -84,6 +84,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c1731e998f3eedde.json",
+  "source" : "ccbbe8d2b7271782.json",
   "parameterValues" : [ ]
 }
