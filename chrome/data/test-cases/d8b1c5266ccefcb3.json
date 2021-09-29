@@ -1,12 +1,12 @@
 {
-  "uid" : "4698ec12dc81357c",
+  "uid" : "d8b1c5266ccefcb3",
   "name" : "searchForExactTitle()",
   "fullName" : "search.SearchTests.searchForExactTitle",
   "historyId" : "ffacb1c5d105cbb05d339d7475d4de04",
   "time" : {
-    "start" : 1632872380363,
-    "stop" : 1632872381085,
-    "duration" : 722
+    "start" : 1632958787024,
+    "stop" : 1632958787779,
+    "duration" : 755
   },
   "description" : "",
   "status" : "passed",
@@ -19,39 +19,39 @@
     "steps" : [ {
       "name" : "Search for exact title",
       "time" : {
-        "start" : 1632872380364,
-        "stop" : 1632872381084,
-        "duration" : 720
+        "start" : 1632958787026,
+        "stop" : 1632958787779,
+        "duration" : 753
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "f60824f42a19173f",
+        "uid" : "f9a78166f0b1f2b1",
         "name" : "PageScreenAfterTest",
-        "source" : "f60824f42a19173f.png",
+        "source" : "f9a78166f0b1f2b1.png",
         "type" : "image/png",
         "size" : 88018
       } ],
       "parameters" : [ ],
-      "attachmentsCount" : 1,
       "shouldDisplayMessage" : false,
-      "hasContent" : true,
-      "stepsCount" : 0
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
-    "hasContent" : true,
-    "stepsCount" : 1
+    "attachmentsCount" : 1,
+    "stepsCount" : 1,
+    "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "host",
-    "value" : "fv-az71-773"
+    "value" : "fv-az30-737"
   }, {
     "name" : "thread",
-    "value" : "6984@fv-az71-773.main(1)"
+    "value" : "5276@fv-az30-737.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -84,6 +84,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "4698ec12dc81357c.json",
+  "source" : "d8b1c5266ccefcb3.json",
   "parameterValues" : [ ]
 }
