@@ -1,12 +1,12 @@
 {
-  "uid" : "97f289edca823a2c",
+  "uid" : "72b445325074dcf1",
   "name" : "searchForExactTitle()",
   "fullName" : "search.SearchTests.searchForExactTitle",
   "historyId" : "ffacb1c5d105cbb05d339d7475d4de04",
   "time" : {
-    "start" : 1633131555500,
-    "stop" : 1633131556210,
-    "duration" : 710
+    "start" : 1633218052180,
+    "stop" : 1633218053059,
+    "duration" : 879
   },
   "description" : "",
   "status" : "passed",
@@ -19,31 +19,31 @@
     "steps" : [ {
       "name" : "Search for exact title",
       "time" : {
-        "start" : 1633131555502,
-        "stop" : 1633131556210,
-        "duration" : 708
+        "start" : 1633218052181,
+        "stop" : 1633218053058,
+        "duration" : 877
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "c6e2c06a62d4516c",
+        "uid" : "8eef8c72b524399c",
         "name" : "PageScreenAfterTest",
-        "source" : "c6e2c06a62d4516c.png",
+        "source" : "8eef8c72b524399c.png",
         "type" : "image/png",
         "size" : 88018
       } ],
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : true,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 1
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "stepsCount" : 1,
     "hasContent" : true,
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 1
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -51,7 +51,7 @@
     "value" : "fv-az30-573"
   }, {
     "name" : "thread",
-    "value" : "8@fv-az30-573.main(1)"
+    "value" : "480@fv-az30-573.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -84,6 +84,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "97f289edca823a2c.json",
+  "source" : "72b445325074dcf1.json",
   "parameterValues" : [ ]
 }
