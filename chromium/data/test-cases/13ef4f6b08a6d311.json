@@ -1,12 +1,12 @@
 {
-  "uid" : "f8ea8ce4e8215f50",
+  "uid" : "13ef4f6b08a6d311",
   "name" : "searchForExactTitle()",
   "fullName" : "search.SearchTests.searchForExactTitle",
   "historyId" : "ffacb1c5d105cbb05d339d7475d4de04",
   "time" : {
-    "start" : 1633218007704,
-    "stop" : 1633218008460,
-    "duration" : 756
+    "start" : 1633477199252,
+    "stop" : 1633477199993,
+    "duration" : 741
   },
   "description" : "",
   "status" : "passed",
@@ -19,39 +19,39 @@
     "steps" : [ {
       "name" : "Search for exact title",
       "time" : {
-        "start" : 1633218007706,
-        "stop" : 1633218008457,
-        "duration" : 751
+        "start" : 1633477199253,
+        "stop" : 1633477199993,
+        "duration" : 740
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "eed42d5c35e47efe",
+        "uid" : "1bae6334b25f386e",
         "name" : "PageScreenAfterTest",
-        "source" : "eed42d5c35e47efe.png",
+        "source" : "1bae6334b25f386e.png",
         "type" : "image/png",
         "size" : 88018
       } ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : true,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 1,
-      "shouldDisplayMessage" : false
+      "hasContent" : true,
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 1,
-    "hasContent" : true,
+    "shouldDisplayMessage" : false,
     "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false
+    "hasContent" : true,
+    "stepsCount" : 1
   },
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "host",
-    "value" : "fv-az30-573"
+    "value" : "fv-az71-801"
   }, {
     "name" : "thread",
-    "value" : "5600@fv-az30-573.main(1)"
+    "value" : "5392@fv-az71-801.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -84,6 +84,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "f8ea8ce4e8215f50.json",
+  "source" : "13ef4f6b08a6d311.json",
   "parameterValues" : [ ]
 }
