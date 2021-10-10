@@ -1,12 +1,12 @@
 {
-  "uid" : "242dd8266b1ee0b6",
-  "name" : "searchForPartialTitle()",
-  "fullName" : "search.SearchTests.searchForPartialTitle",
-  "historyId" : "e99804c7e1a63326f8bbba2908d99ecd",
+  "uid" : "20faf9c2a763b9b6",
+  "name" : "searchForExactTitle()",
+  "fullName" : "search.SearchTests.searchForExactTitle",
+  "historyId" : "ffacb1c5d105cbb05d339d7475d4de04",
   "time" : {
-    "start" : 1633822764437,
-    "stop" : 1633822765208,
-    "duration" : 771
+    "start" : 1633909169248,
+    "stop" : 1633909169953,
+    "duration" : 705
   },
   "description" : "",
   "status" : "passed",
@@ -17,20 +17,20 @@
     "description" : "",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Search for partial title",
+      "name" : "Search for exact title",
       "time" : {
-        "start" : 1633822764481,
-        "stop" : 1633822765183,
-        "duration" : 702
+        "start" : 1633909169249,
+        "stop" : 1633909169953,
+        "duration" : 704
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "a803e84849887f26",
+        "uid" : "72d5a8707849f906",
         "name" : "PageScreenAfterTest",
-        "source" : "a803e84849887f26.png",
+        "source" : "72d5a8707849f906.png",
         "type" : "image/png",
-        "size" : 276841
+        "size" : 88018
       } ],
       "parameters" : [ ],
       "attachmentsCount" : 1,
@@ -48,10 +48,10 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "host",
-    "value" : "fv-az71-378"
+    "value" : "fv-az30-139"
   }, {
     "name" : "thread",
-    "value" : "5288@fv-az71-378.main(1)"
+    "value" : "3752@fv-az30-139.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -66,7 +66,7 @@
     "value" : "search.SearchTests"
   }, {
     "name" : "testMethod",
-    "value" : "searchForPartialTitle"
+    "value" : "searchForExactTitle"
   }, {
     "name" : "suite",
     "value" : "search.SearchTests"
@@ -84,6 +84,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "242dd8266b1ee0b6.json",
+  "source" : "20faf9c2a763b9b6.json",
   "parameterValues" : [ ]
 }
