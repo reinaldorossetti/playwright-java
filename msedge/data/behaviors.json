@@ -1,31 +1,31 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
   "children" : [ {
     "name" : "searchForPartialTitle()",
-    "uid" : "a2a9b5152ac3485c",
+    "uid" : "8c015ba8fc19f84d",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1633822767753,
-      "stop" : 1633822768577,
-      "duration" : 824
+      "start" : 1633995583195,
+      "stop" : 1633995583953,
+      "duration" : 758
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "searchForExactTitle()",
-    "uid" : "549518663edd1a52",
+    "uid" : "184c0108deb7abe1",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1633822768752,
-      "stop" : 1633822769497,
-      "duration" : 745
+      "start" : 1633995584152,
+      "stop" : 1633995584895,
+      "duration" : 743
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
-  } ],
-  "name" : "behaviors"
+  } ]
 }
