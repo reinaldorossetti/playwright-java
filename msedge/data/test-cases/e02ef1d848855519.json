@@ -1,12 +1,12 @@
 {
-  "uid" : "709c6684061443d7",
+  "uid" : "e02ef1d848855519",
   "name" : "searchForExactTitle()",
   "fullName" : "search.SearchTests.searchForExactTitle",
   "historyId" : "ffacb1c5d105cbb05d339d7475d4de04",
   "time" : {
-    "start" : 1634168406831,
-    "stop" : 1634168407552,
-    "duration" : 721
+    "start" : 1634254810283,
+    "stop" : 1634254811037,
+    "duration" : 754
   },
   "description" : "",
   "status" : "passed",
@@ -19,39 +19,39 @@
     "steps" : [ {
       "name" : "Search for exact title",
       "time" : {
-        "start" : 1634168406832,
-        "stop" : 1634168407552,
-        "duration" : 720
+        "start" : 1634254810285,
+        "stop" : 1634254811036,
+        "duration" : 751
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "a661181e0039111f",
+        "uid" : "6db9d74efbcb1afe",
         "name" : "PageScreenAfterTest",
-        "source" : "a661181e0039111f.png",
+        "source" : "6db9d74efbcb1afe.png",
         "type" : "image/png",
         "size" : 88018
       } ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : true,
+      "attachmentsCount" : 1,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 1
+      "hasContent" : true,
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 1,
-    "hasContent" : true,
+    "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 1
+    "hasContent" : true,
+    "stepsCount" : 1
   },
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "host",
-    "value" : "fv-az71-435"
+    "value" : "fv-az30-58"
   }, {
     "name" : "thread",
-    "value" : "5384@fv-az71-435.main(1)"
+    "value" : "4740@fv-az30-58.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -84,6 +84,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "709c6684061443d7.json",
+  "source" : "e02ef1d848855519.json",
   "parameterValues" : [ ]
 }
