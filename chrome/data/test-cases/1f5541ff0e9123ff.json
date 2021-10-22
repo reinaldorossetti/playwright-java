@@ -1,12 +1,12 @@
 {
-  "uid" : "a73112e9bbb6b54c",
+  "uid" : "1f5541ff0e9123ff",
   "name" : "searchForExactTitle()",
   "fullName" : "search.SearchTests.searchForExactTitle",
   "historyId" : "ffacb1c5d105cbb05d339d7475d4de04",
   "time" : {
-    "start" : 1634859624350,
-    "stop" : 1634859625073,
-    "duration" : 723
+    "start" : 1634946012425,
+    "stop" : 1634946013197,
+    "duration" : 772
   },
   "description" : "",
   "status" : "passed",
@@ -19,39 +19,39 @@
     "steps" : [ {
       "name" : "Search for exact title",
       "time" : {
-        "start" : 1634859624351,
-        "stop" : 1634859625072,
-        "duration" : 721
+        "start" : 1634946012426,
+        "stop" : 1634946013197,
+        "duration" : 771
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "802542f2c02f7c2b",
+        "uid" : "9a17a097d9faf5a5",
         "name" : "PageScreenAfterTest",
-        "source" : "802542f2c02f7c2b.png",
+        "source" : "9a17a097d9faf5a5.png",
         "type" : "image/png",
         "size" : 88018
       } ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
       "attachmentsCount" : 1,
-      "stepsCount" : 0,
-      "hasContent" : true
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
     "attachmentsCount" : 1,
-    "stepsCount" : 1,
-    "hasContent" : true
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
   },
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "host",
-    "value" : "fv-az71-135"
+    "value" : "fv-az30-258"
   }, {
     "name" : "thread",
-    "value" : "7064@fv-az71-135.main(1)"
+    "value" : "2792@fv-az30-258.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -84,6 +84,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a73112e9bbb6b54c.json",
+  "source" : "1f5541ff0e9123ff.json",
   "parameterValues" : [ ]
 }
