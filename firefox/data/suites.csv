@@ -1,3 +1,3 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Sun Oct 24 23:39:59 UTC 2021","Sun Oct 24 23:40:00 UTC 2021","762","","search.SearchTests","","search.SearchTests","searchForPartialTitle","searchForPartialTitle()",""
-"passed","Sun Oct 24 23:40:00 UTC 2021","Sun Oct 24 23:40:01 UTC 2021","687","","search.SearchTests","","search.SearchTests","searchForExactTitle","searchForExactTitle()",""
+"passed","Mon Oct 25 23:40:36 UTC 2021","Mon Oct 25 23:40:37 UTC 2021","817","","search.SearchTests","","search.SearchTests","searchForExactTitle","searchForExactTitle()",""
+"passed","Mon Oct 25 23:40:35 UTC 2021","Mon Oct 25 23:40:36 UTC 2021","873","","search.SearchTests","","search.SearchTests","searchForPartialTitle","searchForPartialTitle()",""
