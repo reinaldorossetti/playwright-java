@@ -1,12 +1,12 @@
 {
-  "uid" : "c94050b844d3c4be",
-  "name" : "searchForPartialTitle()",
-  "fullName" : "search.SearchTests.searchForPartialTitle",
-  "historyId" : "e99804c7e1a63326f8bbba2908d99ecd",
+  "uid" : "b1bd341cad46ae64",
+  "name" : "searchForExactTitle()",
+  "fullName" : "search.SearchTests.searchForExactTitle",
+  "historyId" : "ffacb1c5d105cbb05d339d7475d4de04",
   "time" : {
-    "start" : 1635550851454,
-    "stop" : 1635550852349,
-    "duration" : 895
+    "start" : 1635723620282,
+    "stop" : 1635723620970,
+    "duration" : 688
   },
   "description" : "",
   "status" : "passed",
@@ -17,20 +17,20 @@
     "description" : "",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Search for partial title",
+      "name" : "Search for exact title",
       "time" : {
-        "start" : 1635550851505,
-        "stop" : 1635550852313,
-        "duration" : 808
+        "start" : 1635723620283,
+        "stop" : 1635723620969,
+        "duration" : 686
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "119f8334c1a3391c",
+        "uid" : "545877995413b49e",
         "name" : "PageScreenAfterTest",
-        "source" : "119f8334c1a3391c.png",
+        "source" : "545877995413b49e.png",
         "type" : "image/png",
-        "size" : 276841
+        "size" : 88018
       } ],
       "parameters" : [ ],
       "hasContent" : true,
@@ -51,7 +51,7 @@
     "value" : "fv-az71-185"
   }, {
     "name" : "thread",
-    "value" : "1844@fv-az71-185.main(1)"
+    "value" : "5700@fv-az71-185.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -66,7 +66,7 @@
     "value" : "search.SearchTests"
   }, {
     "name" : "testMethod",
-    "value" : "searchForPartialTitle"
+    "value" : "searchForExactTitle"
   }, {
     "name" : "suite",
     "value" : "search.SearchTests"
@@ -84,6 +84,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c94050b844d3c4be.json",
+  "source" : "b1bd341cad46ae64.json",
   "parameterValues" : [ ]
 }
