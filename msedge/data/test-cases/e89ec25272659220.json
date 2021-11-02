@@ -1,12 +1,12 @@
 {
-  "uid" : "2477b8225f3dd051",
+  "uid" : "e89ec25272659220",
   "name" : "searchForPartialTitle()",
   "fullName" : "search.SearchTests.searchForPartialTitle",
   "historyId" : "e99804c7e1a63326f8bbba2908d99ecd",
   "time" : {
-    "start" : 1635810095587,
-    "stop" : 1635810096372,
-    "duration" : 785
+    "start" : 1635896452626,
+    "stop" : 1635896453460,
+    "duration" : 834
   },
   "description" : "",
   "status" : "passed",
@@ -19,31 +19,31 @@
     "steps" : [ {
       "name" : "Search for partial title",
       "time" : {
-        "start" : 1635810095633,
-        "stop" : 1635810096343,
-        "duration" : 710
+        "start" : 1635896452670,
+        "stop" : 1635896453435,
+        "duration" : 765
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "3e52c39360219483",
+        "uid" : "704dcfb77f3e6795",
         "name" : "PageScreenAfterTest",
-        "source" : "3e52c39360219483.png",
+        "source" : "704dcfb77f3e6795.png",
         "type" : "image/png",
         "size" : 276841
       } ],
       "parameters" : [ ],
-      "attachmentsCount" : 1,
-      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : true,
-      "stepsCount" : 0
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
     "hasContent" : true,
-    "stepsCount" : 1
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -51,7 +51,7 @@
     "value" : "fv-az30-432"
   }, {
     "name" : "thread",
-    "value" : "4748@fv-az30-432.main(1)"
+    "value" : "1672@fv-az30-432.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -84,6 +84,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "2477b8225f3dd051.json",
+  "source" : "e89ec25272659220.json",
   "parameterValues" : [ ]
 }
