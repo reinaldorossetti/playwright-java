@@ -1,35 +1,35 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
   "children" : [ {
     "name" : "search.SearchTests",
     "children" : [ {
       "name" : "searchForPartialTitle()",
-      "uid" : "c2760e41f59de645",
+      "uid" : "91da97fe4ef9b12f",
       "parentUid" : "75613dfd59188c1ee48b0751d1baec6b",
       "status" : "passed",
       "time" : {
-        "start" : 1636069233747,
-        "stop" : 1636069234549,
-        "duration" : 802
+        "start" : 1636155607791,
+        "stop" : 1636155608519,
+        "duration" : 728
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "searchForExactTitle()",
-      "uid" : "457fcb346a5ab7c6",
+      "uid" : "2d4e5c615df71c6f",
       "parentUid" : "75613dfd59188c1ee48b0751d1baec6b",
       "status" : "passed",
       "time" : {
-        "start" : 1636069234737,
-        "stop" : 1636069235501,
-        "duration" : 764
+        "start" : 1636155608714,
+        "stop" : 1636155609418,
+        "duration" : 704
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
     "uid" : "75613dfd59188c1ee48b0751d1baec6b"
-  } ],
-  "name" : "suites"
+  } ]
 }
